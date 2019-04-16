@@ -1,0 +1,48 @@
+body{
+	 font-family: 'Merienda';font-size: 15px;
+}
+.nav-item{
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.flag{
+	max-height: 20px;
+	max-width: 20px;
+	margin-top: 10px;
+}
+.nav-link.active{
+	background-color: lightgrey !important;
+}
+
+.reserve-container{
+	position: relative;
+}
+.reserve-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-reserve{
+	opacity: 0.4;
+	max-height: 750px;
+}
+
+.navMenu{
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width : 1920px){
+  .only-mobile{
+  visibility:hidden;
+  }
+}
+
+@media screen and (max-width : 506px){
+ 
+ .only-mobile{
+  visibility:visible;
+  }
+}
